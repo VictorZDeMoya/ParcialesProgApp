@@ -59,6 +59,7 @@
             this.ConsultasTabMENU.Name = "ConsultasTabMENU";
             this.ConsultasTabMENU.Size = new System.Drawing.Size(101, 24);
             this.ConsultasTabMENU.Text = "CONSULTAS";
+            this.ConsultasTabMENU.Click += new System.EventHandler(this.ConsultasTabMENU_Click);
             // 
             // ProductosPMENU
             // 

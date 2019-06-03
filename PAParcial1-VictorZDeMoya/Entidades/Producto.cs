@@ -26,4 +26,3 @@ namespace PAParcial1_VictorZDeMoya.Entidades
         }
     }
 }
-
