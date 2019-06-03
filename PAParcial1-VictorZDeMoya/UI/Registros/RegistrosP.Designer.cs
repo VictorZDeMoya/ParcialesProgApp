@@ -168,7 +168,7 @@
             // 
             this.BuscarBTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BuscarBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BuscarBTN.Location = new System.Drawing.Point(279, 12);
+            this.BuscarBTN.Location = new System.Drawing.Point(250, 12);
             this.BuscarBTN.Name = "BuscarBTN";
             this.BuscarBTN.Size = new System.Drawing.Size(154, 63);
             this.BuscarBTN.TabIndex = 13;
@@ -181,7 +181,7 @@
             this.ValorGridView.Location = new System.Drawing.Point(279, 132);
             this.ValorGridView.Name = "ValorGridView";
             this.ValorGridView.RowTemplate.Height = 24;
-            this.ValorGridView.Size = new System.Drawing.Size(154, 113);
+            this.ValorGridView.Size = new System.Drawing.Size(161, 126);
             this.ValorGridView.TabIndex = 14;
             // 
             // MyErrorProvider

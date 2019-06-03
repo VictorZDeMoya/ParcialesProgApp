@@ -19,16 +19,17 @@ namespace PAParcial1_VictorZDeMoya
         {
             InitializeComponent();
         }
-        private void RegistroMENU_Click(object sender, EventArgs e)
+        private void RegistroTabMENU_Click(object sender, EventArgs e)
         {
             RegistrosP RProd = new RegistrosP();
             RProd.Visible = true;
         }
 
-        private void ConsultaMENU_Click(object sender, EventArgs e)
+        private void ConsultaTabMENU_Click(object sender, EventArgs e)
         {
             ConsultasP CProd = new ConsultasP();
             CProd.Visible= true;
         }
+
     }
 }
