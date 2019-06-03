@@ -45,7 +45,6 @@ namespace PAParcial1_VictorZDeMoya.UI.Registros
         private bool ExisteEnLaDB()
         {
             Producto producto = ProductosBLL.Buscar((int)IdPicker.Value);
-
             return (producto != null);
         }
 

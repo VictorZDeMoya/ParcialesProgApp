@@ -71,20 +71,24 @@
             this.ExistenciaTBox.Name = "ExistenciaTBox";
             this.ExistenciaTBox.Size = new System.Drawing.Size(120, 22);
             this.ExistenciaTBox.TabIndex = 2;
+            this.ExistenciaTBox.TextChanged += new System.EventHandler(this.ExistenciaTBox_TextChanged);
+            this.ExistenciaTBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ExistenciaTBox_KeyPress);
             // 
             // ValorInvTBox
             // 
-            this.ValorInvTBox.Location = new System.Drawing.Point(125, 178);
+            this.ValorInvTBox.Location = new System.Drawing.Point(125, 236);
             this.ValorInvTBox.Name = "ValorInvTBox";
             this.ValorInvTBox.Size = new System.Drawing.Size(107, 22);
             this.ValorInvTBox.TabIndex = 3;
             // 
             // CostoTBox
             // 
-            this.CostoTBox.Location = new System.Drawing.Point(112, 223);
+            this.CostoTBox.Location = new System.Drawing.Point(112, 188);
             this.CostoTBox.Name = "CostoTBox";
             this.CostoTBox.Size = new System.Drawing.Size(120, 22);
             this.CostoTBox.TabIndex = 4;
+            this.CostoTBox.TextChanged += new System.EventHandler(this.CostoTBox_TextChanged);
+            this.CostoTBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CostoTBox_KeyPress);
             // 
             // NuevoBTN
             // 
@@ -96,6 +100,7 @@
             this.NuevoBTN.TabIndex = 5;
             this.NuevoBTN.Text = "NUEVO";
             this.NuevoBTN.UseVisualStyleBackColor = false;
+            this.NuevoBTN.Click += new System.EventHandler(this.NuevoBTN_Click);
             // 
             // EliminarBTN
             // 
@@ -107,6 +112,7 @@
             this.EliminarBTN.TabIndex = 6;
             this.EliminarBTN.Text = "ELIMINAR";
             this.EliminarBTN.UseVisualStyleBackColor = false;
+            this.EliminarBTN.Click += new System.EventHandler(this.EliminarBTN_Click);
             // 
             // GuardarBTN
             // 
@@ -118,6 +124,7 @@
             this.GuardarBTN.TabIndex = 7;
             this.GuardarBTN.Text = "GUARDAR";
             this.GuardarBTN.UseVisualStyleBackColor = false;
+            this.GuardarBTN.Click += new System.EventHandler(this.GuardarBTN_Click);
             // 
             // label1
             // 
@@ -149,7 +156,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 183);
+            this.label4.Location = new System.Drawing.Point(12, 241);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 17);
             this.label4.TabIndex = 11;
@@ -158,7 +165,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 228);
+            this.label5.Location = new System.Drawing.Point(12, 193);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 17);
             this.label5.TabIndex = 12;
@@ -174,6 +181,7 @@
             this.BuscarBTN.TabIndex = 13;
             this.BuscarBTN.Text = "BUSCAR";
             this.BuscarBTN.UseVisualStyleBackColor = false;
+            this.BuscarBTN.Click += new System.EventHandler(this.BuscarBTN_Click);
             // 
             // ValorGridView
             // 

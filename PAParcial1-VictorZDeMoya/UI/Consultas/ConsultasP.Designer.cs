@@ -38,14 +38,15 @@
             // 
             this.RefreshBTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.RefreshBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RefreshBTN.Location = new System.Drawing.Point(350, 23);
+            this.RefreshBTN.Location = new System.Drawing.Point(331, 23);
             this.RefreshBTN.Name = "RefreshBTN";
-            this.RefreshBTN.Size = new System.Drawing.Size(93, 60);
+            this.RefreshBTN.Size = new System.Drawing.Size(112, 60);
             this.RefreshBTN.TabIndex = 0;
             this.RefreshBTN.Text = "\r\nREFRESH";
             this.RefreshBTN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.RefreshBTN.UseMnemonic = false;
             this.RefreshBTN.UseVisualStyleBackColor = false;
+            this.RefreshBTN.Click += new System.EventHandler(this.RefreshBTN_Click);
             // 
             // label1
             // 
